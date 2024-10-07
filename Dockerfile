@@ -2,7 +2,7 @@
 # Use an official Python runtime as a parent image, choosing a slim or minimal base image
 FROM python:3.12-slim
 
-# 2. Set environment variables (avoid sensitive information) 
+# 2. Set environment variables (avoid sensitive information)
 # This improves security by avoiding sensitive information in the code itself
 ENV PYTHONUNBUFFERED=1
 

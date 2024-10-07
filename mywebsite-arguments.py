@@ -25,7 +25,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
         '''.format(server.server_port, self.client_address[0], self.path, self.server.server_name, server.server_port)
         self.wfile.write(response_content.encode('utf-8'))
 
-# Define a function to handle argument parsing
+# Define a function to handle argument parsing 
 # 	•	--host: Host to bind the server to. Default is 0.0.0.0, which allows the server to listen on all available interfaces.
 #   •	--port: Port to bind the server to. Default is 8000.
 def parse_arguments():
