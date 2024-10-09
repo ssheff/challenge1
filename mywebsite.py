@@ -20,7 +20,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
         <html>
         <head><title>Python Web Server</title></head>
         <body>
-        <h1>Welcome to my Web Server!</h1>
+        <h1>Welcome to my Python made Web Server!</h1>
         <p>This server is listening on port 8000.</p>
         <p>Server info:</p>
         <ul>
