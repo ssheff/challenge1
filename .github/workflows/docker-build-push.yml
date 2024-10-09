@@ -32,5 +32,7 @@ jobs:
           context: .
           push: true  # Push to Docker Hub
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/challenge-1:latest  # Replace 'your-repo-name' with your Docker Hub repository name
-            ${{ secrets.DOCKER_USERNAME }}/challenge-1:${{ github.sha }}  # Add a unique tag based on the Git commit hash
+            # Replace 'your-repo-name' with your Docker Hub repository name
+            ${{ secrets.DOCKER_USERNAME }}/challenge-1:latest  
+            # Add a unique tag based on the Git commit hash
+            ${{ secrets.DOCKER_USERNAME }}/challenge-1:${{ github.sha }}  
